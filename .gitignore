@@ -1,3 +1,8 @@
+# Localised files or temporary folders
+data/
+*-local
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

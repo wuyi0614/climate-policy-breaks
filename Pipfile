@@ -1,0 +1,19 @@
+[[source]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+name = "pip_conf_index_global"
+
+[packages]
+# machine learning
+scikit-learn = '*'
+
+# data science
+seaborn = '*'
+pandas = '*'
+numpy = '*'
+
+# utilities
+tqdm = '*'
+
+[requires]
+python_version = "3.9"
