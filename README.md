@@ -12,8 +12,15 @@ The main purpose is to use difference-in-difference models and machine learning 
 
 ## Todo
 
+### Data 
+
 - [ ] download the test data for the method development
+- [ ] compile HEUS (Japan) monthly data for experiments (using behavioural change as structural breaks) 
+
+### Codes
+- 
 - [ ] init the repo with R codes (if available in *Science's* publication)
+- [ ] detect structural breaks in households emission based on HEUS datasets
 
 ## References
 

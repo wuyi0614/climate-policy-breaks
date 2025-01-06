@@ -1,7 +1,11 @@
 # Localised files or temporary folders
-data/
-*-local
+.DS_Store
 .idea/
+
+local/
+data/
+config*
+*-local
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

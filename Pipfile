@@ -12,8 +12,13 @@ seaborn = '*'
 pandas = '*'
 numpy = '*'
 
-# utilities
+# web utilities
+requests = '*'
+bs4 = '*'
+
+# general utilities
 tqdm = '*'
+loguru = '*'
 
 [requires]
 python_version = "3.9"
