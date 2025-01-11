@@ -14,8 +14,13 @@ The main purpose is to use difference-in-difference models and machine learning 
 
 ### Data 
 
-- [ ] download the test data for the method development
+- [x] download the test data for the method development
 - [ ] compile HEUS (Japan) monthly data for experiments (using behavioural change as structural breaks) 
+
+### Methods
+
+- [ ] use `getspanel` in R to implement structural break identification
+- [ ] or connect R with Python to use `getspanel` 
 
 ### Codes
 - 

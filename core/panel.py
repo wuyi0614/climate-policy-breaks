@@ -35,18 +35,6 @@ Source: ignored
 File: ignored (string), filename 
 Overall Summary: ignored
 Full Document Text: optional
-
-Meta:
-{'Files': 4398, 'Country': 3438, 'Title': 3438, 'Draft': 3438, 'Effective Start Year': 3438, 'Scope': 3438, 
-'Document Type': 3438, 'Economic Sector': 3438, 'Energy Types': 3438, 'Overall Summary': 3437, 
-'Revision of previous policy?': 3436, 'Issued by': 3433, 'File': 3433, 'Source': 3320, 'Draft Year': 1804, 
-'Effective End Year': 891, 'Title in national language': 817, 'Notes': 810}
-
-Fields:
-{'Related Documents': 1892, 'Governance': 1826, 'Renewable Energy': 1112, 'Efficiency': 983, 
-'Environment': 980, 'Investment': 793, 'Energy Supply and Infrastructure': 779, 'Pricing': 646, 
-'Technology': 609, 'Access': 580, 'Trade': 364}
-
 """
 
 VALID_META = ['Country', 'Issued by', 'Title', 'Draft Year', 'Effective Start Year', 'Effective End Year',
@@ -95,7 +83,12 @@ def read(root: Path):
     logger.info(f'Metadata: {Counter(temp_keys)}')
     return
 
-def extract():
+def extend_panel():
+    """Extend the basic panel into an extensive mode where each policy element has been aligned
+
+    example: https://asiapacificenergy.org/apef/index.html#main/lang/en/time/[1990,2025]/geo/[THA]/matrix
+    """
+
     return
 
 

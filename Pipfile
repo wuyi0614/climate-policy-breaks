@@ -11,6 +11,7 @@ scikit-learn = '*'
 seaborn = '*'
 pandas = '*'
 numpy = '*'
+openpyxl = '*'
 
 # web utilities
 requests = '*'
